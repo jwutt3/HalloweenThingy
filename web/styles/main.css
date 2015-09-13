@@ -2,23 +2,72 @@
     font-family: "Arial", Verdana, sans-serif;
 }
 
-.image {
+html {
+    background-image: url("../images/bats.gif");
+}
+
+header {
+    text-indent: 30px;
+    border-bottom: 2px solid black;
+    background: linear-gradient(45deg, white, orange 75%, black);
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+.pumpkin {
     float: left;
 }
 
 h1{
-    color: orange;
-    text-indent: 50px;
-    font-style: italic;
-    text-shadow: 2px 2px #000000;
+    font-size: 2.5em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 h3 {
-    text-indent: 50px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+body {
+    width: 700px;
+    background: white;
+    border: 3px solid black;
+    box-shadow: 0px 10px 10px 5px #000000;
+    margin: auto;
+    padding-top: 0;
+}
+
+main {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.welcome {
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .welcome::first-letter { 
     font-size: 200%;
+}
+
+p{
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+ul {
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 li {
@@ -34,7 +83,20 @@ a:hover {
     color: #008000;
 }
 
+.garantee {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    padding-top: 0;
+}
+
 footer {
     font-size: .8em;
     text-align: center;
+    border-top: 2px solid black;
+    background: linear-gradient(45deg, black, orange 25%, white);
+    margin-top: 1em;
+    margin-bottom: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
