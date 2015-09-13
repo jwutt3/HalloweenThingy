@@ -1,0 +1,40 @@
+* {
+    font-family: "Arial", Verdana, sans-serif;
+}
+
+.image {
+    float: left;
+}
+
+h1{
+    color: orange;
+    text-indent: 50px;
+    font-style: italic;
+    text-shadow: 2px 2px #000000;
+}
+
+h3 {
+    text-indent: 50px;
+}
+
+.welcome::first-letter { 
+    font-size: 200%;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+a:link {
+    color: #FFA500;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #008000;
+}
+
+footer {
+    font-size: .8em;
+    text-align: center;
+}
