@@ -65,38 +65,104 @@ main {
     margin-top: 0;
 }
 
-p{
+p {
     margin-top: 0;
     padding-top: 0;
     margin-bottom: 0;
     padding-bottom: 0;
 }
 
+nav {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 0;
+    padding-top: 0;
+    clear: both;
+    background: black;
+    height: 2em;
+}
+
+nav li {
+    display: inline-block;
+    line-height: 2em;
+}
+
+nav li a {
+    line-height: 2em;
+    padding-right: 2em;
+    padding-left: 2.3em;
+    color: white;
+    text-decoration: none;
+}
+
+.current{
+    color:orange;
+}
+
+nav li a:hover {
+    background:#666;
+    height: 4em;
+    padding-top: 0.7em;
+    padding-bottom: 0.5em;
+    color: black;
+}
+
 .sidebar {
     float: left;
-    float: top;
     width: 160px;
 }
 
-ul {
-    margin-bottom: 0;
-    padding-bottom: 0;
+.sidebar li {
+    line-height: 1em;
 }
 
-li {
-    margin-bottom: 5px;
-}
-
-a:link {
-    color: #FFA500;
+.sidebar a:link {
+    color: black;
     font-weight: bold;
 }
 
-a:hover {
-    color: #008000;
+.sidebar a:hover {
+    color: green;
 }
 
-.garantee {
+.sidebar li a {
+    display: block;
+    width: 7em;
+    line-height: 2em;
+    background-color: orange;
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+    padding: .2em 0 .2em 1em;
+    margin-bottom: .1em;
+    margin-left: 1em;
+    margin-top: 1em;
+    border: 3px solid black;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li a:hover {
+    background: black;
+    color: white;
+}
+
+li a:active{
+    background: red;
+    color: black;
+    position: relative;
+    top: 2px;
+}
+
+/*li {
+    margin-bottom: 5px;
+}*/
+
+garantee {
     margin-bottom: 0;
     padding-bottom: 0;
     margin-top: 0;
@@ -112,6 +178,5 @@ footer {
     margin-bottom: 0;
     padding-top: 1em;
     padding-bottom: 1em;
-    clear: left;
-    clear: right;
+    clear: both;
 }
