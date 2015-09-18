@@ -16,7 +16,7 @@ html {
     background-image: url("../images/bats.gif");
 }
 
-body{
+body {
     width: 800px;
     margin: 0 auto;
     padding-top:0;
@@ -26,29 +26,29 @@ body{
   
 }
 
-.pump{
+.pump {
     padding-top:2%;
     padding-left:2%;
 }
 
-img{
+img {
     float:left;
 }
 
-nav{
+nav {
     width:800px;
     margin: 0 auto;
     height:2em;
     background: black;
     clear:both;
 }
-nav li{
+nav li {
     display:inline-block;
     line-height:2em;
    
 }
 
-nav li a{
+nav li a {
     line-height: 2em;
     padding-right: 2em;
     padding-left: 2.3em;
@@ -56,7 +56,7 @@ nav li a{
     text-decoration:none; 
 }
 
-nav li a:hover{
+nav li a:hover {
     background:#666;
     height:4em;
     padding-top: 0.7em;
@@ -65,7 +65,7 @@ nav li a:hover{
     
 }
 
-#rightbar{
+#rightbar {
     margin:0 auto;
     float:right;
     margin-top:0px;
@@ -77,7 +77,7 @@ nav li a:hover{
     margin-bottom: 0;
 }
 
-.right{
+.right {
     font-size:0.8em;
     font-weight:normal;
     color:black;
@@ -87,32 +87,26 @@ nav li a:hover{
     padding-bottom: 0;
 }
 
-.right:hover{
+.right:hover {
     color:green;
     background:none;
 }
 
-li img{
+li img {
     padding-left:10%; 
 }
 
-.sidebar{
+.sidebar {
     float:left;
     width:160px;
    
 }
 
-.middle{
-    padding-left: 40%;
-    padding-right:5%;
-    padding-top: 0%;
-    background:white;
-}
-
-main{
+main {
     width: 390px;
     padding-top:2%;
-    padding-left: 5%;
+    padding-left: 3%;
+    margin-left: 20%;
     padding-right:5%;
     background:white;
     border-top-style:solid;
@@ -123,13 +117,14 @@ main{
 
 main img {
     float: left;
+    padding-right: 8%;
 }
 
 main h5 {
     float: left;
 }
 
-header{
+header {
     text-indent: 30px;
     border-bottom: 2px solid black;
     background: linear-gradient(45deg, white, orange 75%, black);
@@ -137,67 +132,74 @@ header{
     padding-left: 1em;     
 }
 
-h1{
+h1 {
     font-size: 2.5em;
     margin-bottom: 0;
     padding-bottom: 0;
     margin-top: 0;
     padding-top: 2%;
 }
-h3{
+
+h3 {
     margin-top: 0;
     padding-top: 0;
     padding-bottom: 2%;
 }
-h2{
+
+h2 {
     clear:both;
     font-size: 1.3em;
     font-weight:bold;
 }
 
-h4{ 
+h4 { 
     font-size: 1.5em;
     margin-top:2%;
     margin-bottom:0;
 }
-h4::first-letter{
+
+h4::first-letter {
     font-size:200%;
 }
-h5{ 
+
+h5 { 
     font-size:1.5em;
     margin-bottom:0;
     margin-top:0;
 }
-h6{
+
+h6 {
     font-size: 0.9em;
     font-weight: bold;
     margin-top:10%;
     padding-right:5%;
     
 }
-img{
+
+img {
     float: left;
     padding: 2%;
 }
 
-p{
-    //clear:both;
-    float: right;
+p {
     margin-top:0;
     margin-bottom:1%;
 }
-.sidebar li{
+
+.sidebar li {
     line-height:1.5;
 }
-a{
+
+a {
     color:orange;
     font-weight:bold;
 }
-a:hover{
+
+a:hover {
     color:green;
 }
 
-footer{
+footer {
     font-size: .8em;
     text-align: center;
     border-top: 2px solid black;
@@ -209,13 +211,13 @@ footer{
     clear: both;
 }
 
-ul,li{
+ul,li {
     margin:0;
     padding:0;
     list-style: none;
 }
 
-.sidebar li a{
+.sidebar li a {
     
     display:block;
     width:7em; 
@@ -232,12 +234,12 @@ ul,li{
     
 }
 
-li a:hover{
+li a:hover {
     background:black;
     color:white;
 }
 
-li a:active{
+li a:active {
     background:red;
     color:black;
     position:relative;
