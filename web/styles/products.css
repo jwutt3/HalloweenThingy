@@ -1,0 +1,240 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 17, 2015, 4:09:04 PM
+    Author     : jamieutt
+*/
+
+* {
+    font-family: Arial, Verdana, sans-serif;
+}
+
+html {
+    background-image: url("../images/bats.gif");
+}
+
+body{
+    width: 800px;
+    margin: 0 auto;
+    padding-top:0;
+    background:white;
+    border: 3px solid black;
+    box-shadow:0px 10px 50px 20px black;
+  
+}
+
+.pump{
+    padding-top:2%;
+    padding-left:2%;
+}
+
+img{
+    float:left;
+}
+
+nav{
+    width:800px;
+    margin: 0 auto;
+    height:2em;
+    background: black;
+    clear:both;
+}
+nav li{
+    display:inline-block;
+    line-height:2em;
+   
+}
+
+nav li a{
+    line-height: 2em;
+    padding-right: 2em;
+    padding-left: 2.3em;
+    color:white;
+    text-decoration:none; 
+}
+
+nav li a:hover{
+    background:#666;
+    height:4em;
+    padding-top: 0.7em;
+    padding-bottom: 0.5em;
+    color:black;
+    
+}
+
+#rightbar{
+    margin:0 auto;
+    float:right;
+    margin-top:0px;
+    padding-left:2%;
+    width:180px;
+    height:400px;
+    background:#F5DEB3;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.right{
+    font-size:0.8em;
+    font-weight:normal;
+    color:black;
+    padding-left:10%;
+    margin-top:0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.right:hover{
+    color:green;
+    background:none;
+}
+
+li img{
+    padding-left:10%; 
+}
+
+.sidebar{
+    float:left;
+    width:160px;
+   
+}
+
+.middle{
+    padding-left: 40%;
+    padding-right:5%;
+    padding-top: 0%;
+    background:white;
+}
+
+main{
+    width: 390px;
+    padding-top:2%;
+    padding-left: 5%;
+    padding-right:5%;
+    background:white;
+    border-top-style:solid;
+    border-bottom-style:solid;
+    border-width:0px;
+    border-color:black;
+}
+
+main img {
+    float: left;
+}
+
+header{
+    text-indent: 30px;
+    border-bottom: 2px solid black;
+    background: linear-gradient(45deg, white, orange 75%, black);
+    padding-top: 1em;
+    padding-left: 1em;     
+}
+
+h1{
+    margin-bottom:3%;
+    text-indent:1em;
+    font-size: 2.5em;
+    margin-top: 0;
+}
+h3{
+    margin-top:0;
+    text-indent:3em;
+    font-size: 1.1em;
+    font-weight:bold;
+}
+h2{
+    clear:both;
+    font-size: 1.3em;
+    font-weight:bold;
+}
+
+h4{ 
+    font-size: 1.5em;
+    margin-top:2%;
+    margin-bottom:0;
+}
+h4::first-letter{
+    font-size:200%;
+}
+h5{ 
+    font-size:1.5em;
+    margin-bottom:0;
+    margin-top:0;
+}
+h6{
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-top:10%;
+    padding-right:5%;
+    
+}
+img{
+    float: left;
+    padding: 2%;
+}
+
+p{
+    clear:both;
+    margin-top:0;
+    margin-bottom:1%;
+}
+.sidebar li{
+    line-height:1.5;
+}
+a{
+    color:orange;
+    font-weight:bold;
+}
+a:hover{
+    color:green;
+}
+
+footer{
+    font-size: .8em;
+    text-align: center;
+    border-top: 2px solid black;
+    background: linear-gradient(45deg, black, orange 25%, white);
+    margin-top: 1em;
+    margin-bottom: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    clear: both;
+}
+
+ul,li{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+.sidebar li a{
+    
+    display:block;
+    width:7em; 
+    line-height:2em; 
+    background-color: orange;
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+    padding: .2em 0 .2em 1em;
+    margin-bottom: .3em;
+    margin-left: 1em;
+    margin-top: 1em;
+    border: 3px solid black;
+    
+}
+
+li a:hover{
+    background:black;
+    color:white;
+}
+
+li a:active{
+    background:red;
+    color:black;
+    position:relative;
+    top: 2px;
+}
