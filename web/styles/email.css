@@ -1,0 +1,220 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 25, 2015, 11:28:15 AM
+    Author     : jamieutt
+*/
+
+* {
+    font-family: "Arial", Verdana, sans-serif;
+}
+
+html {
+    background-image: url("../images/bats.gif");
+    background-repeat: repeat; 
+}
+
+body {
+    width: 800px;
+    background: white;
+    border: 3px solid black;
+    box-shadow: 0px 10px 10px 5px #000000;
+    margin: auto;
+    padding-top: 0;
+}
+
+nav {
+    width:800px;
+    margin: 0 auto;
+    height:2em;
+    background: black;
+    clear:both;
+}
+
+nav li {
+    display:inline-block;
+    line-height:2em;
+   
+}
+
+nav li a {
+    line-height: 2em;
+    padding-right: 2em;
+    padding-left: 2.3em;
+    color:white;
+    text-decoration:none; 
+}
+
+nav li a:hover {
+    background:#666;
+    height:4em;
+    padding-top: 0.7em;
+    padding-bottom: 0.5em;
+    color:black;
+    
+}
+
+.current{
+    color:orange;
+}
+
+.sidebar {
+    float:left;
+    width:160px;
+   
+}
+
+.middle {
+    width:560px;
+    float:right;
+    padding-left: 5%;
+    padding-right:5%;
+    background:white;
+    
+}
+
+main {
+    width:400px;
+    float:right;
+    padding-left: 5%;
+    padding-right:5%;
+    background:white;
+    border-top-style:solid;
+    border-bottom-style:solid;
+    border-width:0px;
+    border-color:black; 
+}
+
+header {
+    text-indent: 30px;
+    border-bottom: 2px solid black;
+    background: linear-gradient(45deg, white, orange 75%, black);
+    padding-top: 1em;
+    padding-left: 1em;   
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    padding-top: 2%;
+}
+
+h3 {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 2%
+}
+
+h2 {
+    clear:both;
+    font-size: 1.3em;
+    font-weight:bold;
+}
+
+h4 { 
+    font-size: 1.5em;
+    margin-top:2%;
+    margin-bottom:0;
+}
+
+h4::first-letter {
+    font-size:200%;
+}
+
+h5 { 
+    font-size:1.5em;
+    margin-bottom:0;
+    margin-top:0;
+}
+
+img {
+    float: left;
+    padding: 2%;
+}
+
+p {
+    clear:both;
+    margin-top:2%;
+    margin-bottom:1%;
+}
+
+.sidebar li {
+    line-height:1.5;
+}
+
+a {
+    color:orange;
+    font-weight:bold;
+}
+
+a:hover {
+    color:green;
+}
+
+footer {
+    font-size: .8em;
+    text-align: center;
+    border-top: 2px solid black;
+    background: linear-gradient(45deg, black, orange 25%, white);
+    margin-top: 1em;
+    margin-bottom: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    clear: both;
+}
+
+ul,li {
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+.sidebar li a {
+    display:block;
+    width:7em; 
+    line-height:2em; 
+    background-color: orange;
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+    padding: .2em 0 .2em 1em;
+    margin-bottom: .3em;
+    margin-left: 1em;
+    margin-top: 1em;
+    border: 3px solid black;
+}
+
+li a:hover {
+    background:black;
+    color:white;
+}
+
+li a:active {
+    background:red;
+    color:black;
+    position:relative;
+    top: 2px;
+}
+
+form {
+    text-align: right;
+    padding-right:3em;
+   
+}
+
+input {
+    width:80%;
+}
+
+.button {
+    width:30%;
+    background:orange;
+    font-size:1em;
+    margin-right:16em;
+    border: solid black 3px;
+}

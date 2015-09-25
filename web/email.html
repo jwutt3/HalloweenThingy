@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+<head>
+    <link href="styles/email.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8" />
+    <title>The Halloween Store</title>
+</head>
+<body>
+    <header>
+    <img class ="pump" src="images/pumpkin.gif" width ="85" height="78"
+         alt="pumpkin">
+    <h1>The Halloween Store</h1>
+    <h3>For the little Goblin in all of us!</h3>
+    </header>
+    <nav>
+        <section class="navbar">
+            <ul>
+                <li><a href="index.html" title="home">Home</a>
+                <li><a href="products/productlist.html" title="productlist">Product List</a></li>
+                <li><a href="products/personal.html" title="personal">Personal</a></li>
+                <li><a href="products/decoratingideas.html" title="decoratingideas">Decorating Ideas</a></li>
+                <li><a href="email.html" title="joinemail" class="current">Join E-mail</a></li>
+            </ul>
+        </section>
+    </nav>
+     <section class="sidebar">
+        <ul>
+            <li><a href="products/props.html" title="props" >Props</a></li>
+            <li><a href="products/costumes.html" title="costumes">Costumes</a></li>
+            <li><a href="products/specials.html" title="specialeffects">Special FX</a></li>
+            <li><a href="products/masks.html" title="masks">Masks</a></li>
+        </ul>
+    </section>
+    <main>
+    <div class="middle">
+    <section>
+        <h2>Please Enter the Following Information.</h2>
+        <form action="subscribe.html" method="get">
+            <p><label for="FirstName">First Name: </label><input name="FirstName" type="text" id="FirstName" autofocus required /></p>
+            <p><label for="LastName">Last Name: </label><input name="LastName" type="text" id="LastName" required /></p>
+            <p><label for="Email">E-mail: </label><input name="Email" type="email" id="Email" required /></p>
+            <p><label for="ZipCode">Zip Code </label><input name="ZipCode" type="text" id="ZipCode" placeholder="Optional, but appreciated 99999" pattern="^[0-9]{5}$"/></p>
+            <p><input type="submit" value="Submit!" class="button"></p>
+        </form>
+    </section>
+    </div>
+    </main>
+    <footer>
+    &copy; 2015 James Utt
+</footer>
+</body>
+
+</html>
