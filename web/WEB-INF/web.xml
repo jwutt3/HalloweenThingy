@@ -9,4 +9,15 @@
             30
         </session-timeout>
     </session-config>
+    
+     <servlet>
+       <servlet-name>HalloweenServlet</servlet-name>
+        <servlet-class>murach.email.EmailListServlet</servlet-class>
+        <init-param>
+            <param-name>relativePathToFile</param-name>
+            <param-value>/WEB-INF/EmailList.txt</param-value>
+        </init-param>        
+    </servlet>
+    
+    
 </web-app>
